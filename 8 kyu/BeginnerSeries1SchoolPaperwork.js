@@ -15,14 +15,10 @@
 
 // My Solution
 
-function paperwork(n, m) {
-    if (n<0 || m<0){
-      return 0;
-    }else return n*m
-  }
+function past(h, m, s) {
+    return (h * 3600 + m * 60 + s) * 1000;
+    }
 
 // Best Practice
 
-function paperwork(n, m) {
-    return n > 0 && m > 0 ? n * m : 0
-  }
+const past = (h,m,s) => 1000 * (3600 * h + 60 * m + s);
