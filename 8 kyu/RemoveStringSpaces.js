@@ -1,16 +1,16 @@
-//Remove String Spaces
+// Remove String Spaces
 
-//Instructions
+// Instructions
 
-//Simple, remove the spaces from the string, then return the resultant string.
+// Simple, remove the spaces from the string, then return the resultant string.
 
-//My Solution
+// My Solution
 
 function noSpace(x){
   return x.split(' ').join('')
 }
 
-//Best Practice
+// Best Practice
 
 function noSpace(x){
   return x.replace(/\s/g, '');

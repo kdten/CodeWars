@@ -1,6 +1,6 @@
-//Third Angle of a Triangle
+// Third Angle of a Triangle
 
-//Instructions
+// Instructions
 
 // You are given two interior angles (in degrees) of a triangle.
 
@@ -10,13 +10,13 @@
 
 // https://en.wikipedia.org/wiki/Triangle
 
-//My Solution
+// My Solution
 
 function otherAngle(a, b) {
     return (180 - a - b);
   }
   
-  //Best Practice
+// Best Practice
   
   function otherAngle(a, b) {
     return 180-(a+b);
