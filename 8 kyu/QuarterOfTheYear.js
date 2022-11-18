@@ -17,4 +17,4 @@ const quarterOf = (month) => {
 
   //Best Practice
   
- const quarterOf = m => Math.ceil(m/3);
+ const quarterOf2 = m => Math.ceil(m/3);
