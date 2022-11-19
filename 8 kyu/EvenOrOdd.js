@@ -7,9 +7,9 @@
 
 // My Solution
 
-function evenOrOdd(number) {
-    return (number % 2 == 0) ? "Even" : "Odd";
-  }
+  function evenOrOdd(number) {
+      return (number % 2 == 0) ? "Even" : "Odd";
+    }
   
 // Best Practice
   
