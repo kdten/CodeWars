@@ -3,15 +3,12 @@
 
 // Instructions
 
-// There was a test in your class and you passed it. Congratulations!
-// But you're an ambitious person. You want to know if you're better than the average student in your class.
+// Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
 
-// You receive an array with your peers' test scores. Now calculate the average and compare your score!
+// Examples:
 
-// Return True if you're better, else False!
-
-// Note:
-// Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
+// solution('abc', 'bc') // returns true
+// solution('abc', 'd') // returns false
 
 
 // My Solution
