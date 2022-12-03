@@ -6,19 +6,13 @@
 
 // My Solution
 
-function oddOrEven(array) {
-    let sum = 0;
- for(let i=0; i<array.length; i++)
-  {
-  sum += array[i];
+function isPalindrome(x) {
+    if( x.toLowerCase() === x.toLowerCase().split('').reverse().join('')){
+      return true
+    } else {
+       return false
+    }
   }
-   
- if(sum%2==0) {
-   return "even";
- }else if(sum == undefined) {
-   return "odd";
- }else return "odd";
- }
  
 
 // Best Practice
