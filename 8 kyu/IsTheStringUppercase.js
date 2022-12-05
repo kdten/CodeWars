@@ -25,8 +25,7 @@ String.prototype.isUpperCase = function() {
 
 // Best Practice
   
-String.prototype.isUpperCase=function() {return this==this.toUpperCase()}
+// String.prototype.isUpperCase=function() {return this==this.toUpperCase()}
 
-String.prototype.isUpperCase = function() {
+// String.prototype.isUpperCase = function() {
     return this.toUpperCase() === this.toString();
-  
