@@ -1,17 +1,17 @@
-//Convert a string to an array
+// Convert a string to an array
 
-//Instructions
+// Instructions
 
-//Write a function to split a string and convert it into an array of words.
+// Write a function to split a string and convert it into an array of words.
 
 
-//My Solution
+// My Solution
 
 function stringToArray(string){
     return string.trim().split(" ");
 }
   
-  //Best Practice
+// Best Practice
   
 function stringToArray(string){
     return string.split(' ');
