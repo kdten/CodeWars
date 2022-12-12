@@ -1,10 +1,10 @@
-//Convert boolean values to strings 'Yes' or 'No'.
+// Convert boolean values to strings 'Yes' or 'No'.
 
-//Instructions
+// Instructions
 
-//Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
-//My Solution
+// My Solution
 
 function boolToWord( bool ){
     if (bool) {
@@ -14,7 +14,7 @@ function boolToWord( bool ){
     }
   }
   
-  //Best Practice
+  // Best Practice
   
   function boolToWord( bool ){
     return bool ? 'Yes':'No';
