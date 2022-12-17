@@ -25,12 +25,12 @@ const stringToNumber = str => {
 
 // Best Practice
 
-var stringToNumber = function(str){
+var stringToNumber2 = function(str){
     return parseInt(str);
   }
 
-  var stringToNumber = function(str){
+  var stringToNumber3 = function(str){
     return +str;
   }
 
-  const stringToNumber = str => Number(str)
+  const stringToNumber4 = str => Number(str)
