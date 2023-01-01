@@ -1,4 +1,4 @@
-// Third Angle of a Triangle
+// Training JS #4: Basic data types--Arrays
 
 // Instructions
 

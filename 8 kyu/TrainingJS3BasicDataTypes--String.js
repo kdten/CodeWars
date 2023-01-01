@@ -1,4 +1,4 @@
-// Training JS #7: if..else and ternary operator
+// Training JS #3: Basic data types--Strings
 
 
 // Instructions
